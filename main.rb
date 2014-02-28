@@ -6,7 +6,7 @@ require 'lib/awssite.rb'
 require 'lib/http.rb'
 
 begin
-  site_name = ARGV[0] || '/' # site's name - adcom adcl
+  site_name = ARGV[0]        # site's name - adcom adcl
   path      = ARGV[1] || '/' # uri to purge from cache
 
   begin
